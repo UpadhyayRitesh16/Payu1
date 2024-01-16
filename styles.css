@@ -6,21 +6,12 @@ body{
 .container{
     display: inline;
     position: relative;
-    width: 80%; /* Set the initial width as a percentage */
     margin: 0 auto; /* Center the container */
 
 
 }
 
 /* Media query for smaller screens */
-@media (max-width: 600px) {
-    .container {
-        width: 90%; /* Adjust the width for smaller screens */
-    }
-    .mheading{
-        font-size: 10px;
-    }
-}
 
 .mheading{
     color: whitesmoke;
