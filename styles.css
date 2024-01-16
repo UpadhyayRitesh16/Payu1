@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(0.25turn,#f08080,#ffb6c1,#e63e62) ;
+    width: clamp(200px,50%,1200px)
 }
 
 .container{
