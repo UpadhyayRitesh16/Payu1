@@ -7,7 +7,7 @@ body{
     display: inline;
     position: relative;
     margin: 0 auto; /* Center the container */
-    width: clamp(40px,25%,800px);
+    width: clamp(40px,50%,800px);
 
 }
 
