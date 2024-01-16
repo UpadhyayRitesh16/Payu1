@@ -1,13 +1,13 @@
 body{
     background: linear-gradient(0.25turn,#f08080,#ffb6c1,#e63e62) ;
-    width: clamp(200px,50%,1200px)
+    width: clamp(200px,50%,1200px);
 }
 
 .container{
     display: inline;
     position: relative;
     margin: 0 auto; /* Center the container */
-
+    width: clamp(200px,50%,1200px);
 
 }
 
@@ -16,7 +16,7 @@ body{
 .mheading{
     color: whitesmoke;
     font-family: "Dancing Script", sans-serif;
-    font-size: 180px; 
+    font-size: 50px; 
     animation: slideIn 3s ease-out; 
     padding-left: 600px;
     margin-top: 20px;
@@ -58,7 +58,7 @@ body{
 .sHeading{
     color: whitesmoke;
     font-family: "Dancing Script", sans-serif;
-    font-size: 180px; 
+    font-size: 50px; 
     animation: slideIn 3s ease-in; 
     padding-left: 600px;
     margin-top: 20px;
